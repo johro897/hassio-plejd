@@ -232,7 +232,7 @@ class PlejdApi {
       case 6:
         return { name: 'WPH-01', type: 'switch', dimmable: false };
       case 7:
-        return { name: 'REL-01', type: 'switch', dimmable: false };
+        return { name: 'REL-01', type: 'light', dimmable: false };
       case 8:
       case 9:
         // Unknown
@@ -250,9 +250,9 @@ class PlejdApi {
         // Unknown
         return { name: '-unknown-', type: 'light', dimmable: false };
       case 17:
-        return { name: 'REL-01', type: 'switch', dimmable: false };
+        return { name: 'REL-01', type: 'light', dimmable: false };
       case 18:
-        return { name: 'REL-02', type: 'switch', dimmable: false };
+        return { name: 'REL-02', type: 'light', dimmable: false };
       case 19:
         // Unknown
         return { name: '-unknown-', type: 'light', dimmable: false };
